@@ -1,0 +1,12 @@
+{
+  "name": "Test4",
+  "description": "Test4",
+  "version": "0.0.0",
+  "main": "bot4.js",
+  "scripts": {
+    "start": "node bot4.js"
+  },
+  "dependencies": {
+   "discord.js": "^11.3.2"
+  }
+}
