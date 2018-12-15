@@ -32,7 +32,7 @@ var channel = "521503720689762307";//ايدي الروم
 client.on('message', message => {
     var args = message.content.split(' ').slice(1); 
     if(message.content === "tr") {
-        message.channel.send(`#credits <@175465689027444736> $(args)`)
+        message.channel.send(`#credits <@175465689027444736> ${args}`)
     }
 });
 
