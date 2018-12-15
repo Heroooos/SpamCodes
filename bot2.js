@@ -32,7 +32,7 @@ var channel = "521503720689762307";//ايدي الروم
 client.on('message', message => {
     var args = message.content.split(' ').slice(1); 
     if(message.content === "trade") {
-        message.channel.send(`#credits <@175465689027444736> 140000`)
+        message.channel.send(`#credits <@175465689027444736> 10000`)
     }
 });
 
