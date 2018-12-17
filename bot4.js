@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 //--------------------------------------------
 var client = new Discord.Client();
-const prefix = '^^'
+const prefix = '1'
 client.on('message', message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
